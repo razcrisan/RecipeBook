@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\Header_Component",
+    "\\src\\app\\recipes",
+    "\\src\\app\\recipes\\recipe-detail",
+    "\\src\\app\\recipes\\recipe-list",
+    "\\src\\app\\shopping-list"
   ],
-  "SelectedNode": "\\.angular-cli.json",
+  "SelectedNode": "\\src\\app\\Header_Component\\header.component.html",
   "PreviewInSolutionExplorer": false
 }
