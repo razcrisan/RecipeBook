@@ -5,8 +5,7 @@ import { Recipe } from '../../recipe.model';
   selector: 'app-recipe-item',
   templateUrl: './recipe-item.component.html',
   styleUrls: ['./recipe-item.component.css']
-})
-export class RecipeItemComponent implements OnInit {
+})class RecipeItemComponent implements OnInit {
   @Input() recipe: Recipe;
   @Output() recipeSelected = new EventEmitter<void>();
 
@@ -15,8 +14,8 @@ export class RecipeItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelected() {
+  onClicked() {
     this.recipeSelected.emit();
-
   }
+export 
 }
